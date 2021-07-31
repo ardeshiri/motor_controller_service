@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1611660756 source:/home/arash/Code/codeblocks/motor_ctrl_service/CPPAMQP.cpp
+	"CPPAMQP.h"
+	<exception>
+	<vector>
+	<cstring>
+
+1611660746 /home/arash/Code/codeblocks/motor_ctrl_service/CPPAMQP.h
+	<amqp.h>
+	<amqp_ssl_socket.h>
+	<amqp_tcp_socket.h>
+	<stdlib.h>
+	<string>
+	<vector>
+	<map>
+	<tuple>
+	<iostream>
+	<optional>
+
+1627356899 source:/home/arash/Code/codeblocks/motor_ctrl_service/main.cpp
+	<iostream>
+	"Serial_connector.h"
+	<unistd.h>
+	<thread>
+	<chrono>
+	<mutex>
+	"Serial_command.h"
+	<map>
+	<algorithm>
+	<future>
+	"CPPAMQP.h"
+	<chrono>
+	"utility.h"
+
+1627356499 /home/arash/Code/codeblocks/motor_ctrl_service/Serial_connector.h
+	<iostream>
+	<termios.h>
+	<fcntl.h>
+
+1627152790 /home/arash/Code/codeblocks/motor_ctrl_service/Serial_command.h
+	<iostream>
+	"Serial_connector.h"
+	<mutex>
+	<chrono>
+
+1627152617 source:/home/arash/Code/codeblocks/motor_ctrl_service/Serial_command.cpp
+	"Serial_command.h"
+	<unistd.h>
+	<thread>
+
+1626806411 source:/home/arash/Code/codeblocks/motor_ctrl_service/Serial_connector.cpp
+	"Serial_connector.h"
+	<unistd.h>
+	<errno.h>
+	<string.h>
+
+1627152790 /home/arash/Code/codeblocks/motor_ctrl_service/utility.h
+	<iostream>
+	<map>
+	<algorithm>
+	<future>
+	<filesystem>
+
+1627318763 source:/home/arash/Code/codeblocks/motor_ctrl_service/utility.cpp
+	"utility.h"
+	"Serial_command.h"
+	<unistd.h>
+
